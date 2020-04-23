@@ -6,8 +6,8 @@ import ReactPlayer from "react-player"; //imports react player library
 var videourl; // variable to store the location of the requested video
  
 const pubnub = new PubNub({ //sets up a sequence of pubnub with pushlish and subscriber keys
-  publishKey: 'pub-c-eac6bd24-e961-4566-b70d-1fedde56b792',
-  subscribeKey: 'sub-c-ec64027a-81ab-11ea-b498-86721831d398',
+  publishKey: 'YOUR PUBLISH KEY',
+  subscribeKey: 'YOUR SUBSCRIBER KEY',
 });
 // tells pubnub to use VIDEOSELECTION chanel to hold values in pubnub
 const channels = ['VIDEOSELECTION']; 
