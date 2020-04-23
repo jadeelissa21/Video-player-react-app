@@ -3,10 +3,10 @@
 #define PubNub_BASE_CLIENT WiFiClient  //included to access pubnub
 #include <PubNub.h> //included to access pubnub
 
-const char* ssid = "VM6377135"; //constant variable to wifi SSID to connect to
-const char* password = "g4tzQbqMgk3z"; //constant variable for security key for wifi
-const static char pubkey[]  = "pub-c-eac6bd24-e961-4566-b70d-1fedde56b792"; //publish key for pubnub
-const static char subkey[]  = "sub-c-ec64027a-81ab-11ea-b498-86721831d398"; // subscriber key for pubnub
+const char* ssid = "YOUR SSID"; //constant variable to wifi SSID to connect to
+const char* password = "YOUR KEY"; //constant variable for security key for wifi
+const static char pubkey[]  = "YOUR PUBLISH KEY"; //publish key for pubnub
+const static char subkey[]  = "YOUR SUBCRIBER KEY"; // subscriber key for pubnub
 const static char channel[] = "VIDEOSELECTION";  // variable storing pubnub channel name
 String message; 
 
